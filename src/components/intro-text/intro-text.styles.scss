@@ -1,0 +1,19 @@
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 5rem;
+  font-family: "Architects Daughter", cursive;
+  margin-left: 15vw;
+}
+
+.first-name {
+  color: orange;
+  font-weight: 700;
+}
+
+.job-description {
+  margin-top: 2vh;
+  font-size: 1.3rem;
+  font-style: italic;
+  opacity: 0.8;
+}
