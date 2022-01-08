@@ -3,13 +3,13 @@
 }
 
 .project-title {
-  color: orange;
+  color: #ffec78;
   margin: 0;
   height: 5vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right, #00061a, #000c33, #00061a);
+  background: linear-gradient(to right, #0c0a29, #060415, #0c0a29);
   font-family: "Architects Daughter", cursive;
 }
 
@@ -33,8 +33,8 @@
 }
 
 .project-info-btn {
-  background-color: orange;
-  color: #00061a;
+  background-color: #ffec78;
+  color: #1e1633;
   border: none;
   border-radius: 5px;
   height: 6.5vh;
@@ -50,18 +50,13 @@
 }
 
 .project-img-container {
-  border: solid #fff 1px;
+  border: solid #fef8fd 1px;
   border-radius: 5px;
   width: 600px;
   height: 350px;
   overflow: hidden;
   display: flex;
   justify-content: center;
-}
-
-.project-img-container:hover {
-  transform: scale(1.02);
-  //maybe showcase gif fullscreen?
 }
 
 .project-img {

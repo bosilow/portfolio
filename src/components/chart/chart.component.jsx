@@ -32,20 +32,18 @@ const renderActiveShape = ({
         cx={cx}
         cy={cy}
         innerRadius={innerRadius}
-        outerRadius={outerRadius}
+        outerRadius={outerRadius + 20}
         startAngle={startAngle}
         endAngle={endAngle}
-        fill="#cc7a00"
+        fill="#060415"
       />
 
       <text
         x={ex + (cos >= 0 ? 1 : -1)}
         y={ey}
-        // x={1000}
-        // y={200}
         dy={10}
         textAnchor={textAnchor}
-        fill="#999"
+        fill="#fef8fd"
       >
         {fieldInfo}
       </text>
@@ -72,7 +70,7 @@ const renderCustomizedLabel = ({
       className="field-text-info"
       x={x}
       y={y}
-      fill="#fff"
+      fill="#fef8fd"
       textAnchor="middle"
       dominantBaseline="central"
     >
@@ -100,8 +98,8 @@ const ActiveChart = () => {
             activeShape={renderActiveShape}
             data={data}
             innerRadius={113}
-            outerRadius={215}
-            fill="#00061a"
+            outerRadius={220}
+            fill="#0c0a29"
             dataKey="value"
             label={renderCustomizedLabel}
             onMouseEnter={onPieEnter}

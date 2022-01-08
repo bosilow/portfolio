@@ -9,6 +9,8 @@ import Chart from "./components/chart/chart.component";
 import AboutMyselfContainer from "./components/about-myself-container/about-myself-container.component";
 import ProjectsList from "./components/projects-list/projects-list.component";
 import ContactForm from "./components/contact-form/contact-form.component";
+import Footer from "./components/footer/footer.component";
+// import DraftForm from "./components/draft-form/draft-form.component";
 
 const App = () => {
   const projects = PROJECTS_DATA;
@@ -36,9 +38,10 @@ const App = () => {
         <section id="contact-container" className="container-wrap">
           <h2 id="contact">Contact</h2>
           <ContactForm />
+          {/* <DraftForm /> */}
         </section>
       </main>
-      <footer>Bosiljko 2021.</footer>
+      <Footer text="&#169; Bosiljko 2022." />
     </div>
   );
 };
