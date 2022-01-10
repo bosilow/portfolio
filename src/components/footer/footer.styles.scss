@@ -1,27 +1,30 @@
-.copyright-text {
+.footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #ffec78;
-  font-family: "Architects Daughter", cursive;
 }
 
 .social-icons {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 3vh 0;
 }
 
-.fa {
+.social-icons a {
   padding: 20px;
   font-size: 30px;
   width: 30px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+  margin: 5px 5px;
 }
 
-.fa:hover {
+.social-icons a:hover {
+  cursor: pointer;
   opacity: 0.7;
 }
 
@@ -35,7 +38,59 @@
   color: white;
 }
 
-.fa-file-pdf-o {
+.fa-github {
+  background: #6e5494;
+  color: white;
+}
+
+// .fa-file-pdf-o {
+//   color: red;
+//   background: white;
+// }
+
+// .resume-btn {
+//   display: flex;
+//   align-items: center;
+//   background: white;
+//   color: #1e1633;
+//   border: none;
+//   border-radius: 5px;
+//   height: 8vh;
+//   width: 10vw;
+//   padding: 15px;
+//   font-size: 0.9em;
+//   font-weight: 600;
+// }
+
+// .resume-btn:hover {
+//   cursor: pointer;
+//   opacity: 0.9;
+// }
+
+.resume-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
   background: white;
-  color: red;
+  color: #1e1633;
+  font-size: 0.9em;
+  font-weight: 600;
+  border: solid white 5px;
+  border-radius: 5px;
+  height: 5vh;
+  width: 10vw;
+}
+
+.resume-link:hover {
+  opacity: 0.8;
+}
+
+.copyright-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffec78;
+  font-family: "Architects Daughter", cursive;
+  margin: 5vh 0;
 }
