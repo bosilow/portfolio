@@ -37,10 +37,15 @@
   color: #1e1633;
   border: none;
   border-radius: 5px;
+  box-shadow: 8px 8px 5px #060415;
   height: 6.5vh;
   width: 7.5vw;
   font-size: 0.9em;
   font-weight: 600;
+}
+
+.project-info-btn:hover {
+  opacity: 0.8;
   cursor: pointer;
 }
 
@@ -50,13 +55,12 @@
 }
 
 .project-img-container {
-  border: solid #fef8fd 1px;
-  border-radius: 5px;
   width: 600px;
   height: 350px;
   overflow: hidden;
   display: flex;
   justify-content: center;
+  box-shadow: 8px 8px 5px #060415;
 }
 
 .project-img {
